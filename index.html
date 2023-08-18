@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>revisão</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="#listas">listas</a>
+          <a href="#tabelas">tabelas</a>
+          <a href="#formularios">formularios</a>
+        </nav>
+      </header>
+    <main>
+        <section id="listas">
+            <h2 id="titulo">listas</h2>
+            <h3>marcas</h3>
+            <ol id="">
+            <li>gucci</li>
+            <li>prada</li> 
+            <li>pandora</li></ol>
+            <h3>comidas</h3>
+            <ul>
+                <li>parmegiana de frango</li>
+                <li>picanha</li>
+                <li>lasanha</li>
+            </ul>
+        </section>
+        <section id="tabelas">
+            <h2>tabelas</h2>
+            <table>
+              <tr>
+                  <th>Produto</th>
+                  <th>Preço</th>
+                  <th>Estoque</th>
+              </tr>
+              <tr>
+                  <td>Camiseta</td>
+                  <td>R$ 29,90</td>
+                  <td>50 unidades</td>
+              </tr>
+              <tr>
+                  <td>Calça Jeans</td>
+                  <td>R$ 79,90</td>
+                  <td>30 unidades</td>
+              </tr>
+              <tr>
+                  <td>Tênis</td>
+                  <td>R$ 99,90</td>
+                  <td>20 unidades</td>
+              </tr>
+              <tr>
+                  <td>Jaqueta</td>
+                  <td>R$ 129,90</td>
+                  <td>15 unidades</td>
+              </tr>
+              <tr>
+                  <td>Boné</td>
+                  <td>R$ 19,90</td>
+                  <td>100 unidades</td>
+              </tr>
+              <tr>
+                  <td>Meia</td>
+                  <td>R$ 5,00</td>
+                  <td>200 unidades</td>
+              </tr>
+              </table>
+      
+        </section>
+        <section id="formularios">
+            <h2>formularios</h2>
+            <form action="">
+              <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="18" required>
+            </div>
+            <div class="form-group">
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+</body>
